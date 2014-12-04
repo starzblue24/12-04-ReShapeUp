@@ -1,0 +1,40 @@
+p1 is (2, 2)
+p1 distance from origin = 2.8284271247461903
+p2 is (8, 8)
+p2 distance from origin = 11.313708498984761
+distance between p1 & p2 = 8.48528137423857
+----------------------------------------------
+line is [(2, 2), (8, 8)]
+line's length = 8.48528137423857
+line's slope = 1.0
+----------------------------------------------
+circle is [null, 0.0]
+circle's radius = 0.0
+circle's area = 0.0
+circle's circumference = 0.0
+circle's diameter = 0.0
+add 3.5 to circle's radius -------------------
+circle's radius = 3.5
+circle's area = 38.465
+circle's circumference = 21.98
+circle's diameter = 7.0
+----------------------------------------------
+rectangle is [(8, 8), (2, 2)]
+rectangle's bottom left Point = (8, 8)
+rectangle's top righ Point = (2, 2)
+rectangle's height = 0
+rectangle's width = 0
+rectangle's area = 0.0
+rectangle's diagonal = 0.0
+rectangle's perimeter = 0
+rectangle's square = true
+add 3 to x and 5 to y to scale rectangle -----
+rectangle is [(8, 8), (5, 7)]
+rectangle's bottom left Point = (8, 8)
+rectangle's top righ Point = (5, 7)
+rectangle's height = 5
+rectangle's width = 3
+rectangle's area = 15.0
+rectangle's diagonal = 2.8284271247461903
+rectangle's perimeter = 16
+rectangle's square = false

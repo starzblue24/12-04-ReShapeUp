@@ -1,0 +1,58 @@
+11,15c11,15
+< circle is [(2, 2), 8.48528137423857]
+< circle's radius = 8.48528137423857
+< circle's area = 226.19467105846505
+< circle's circumference = 53.314595257900386
+< circle's diameter = 16.97056274847714
+---
+> circle is [null, 0.0]
+> circle's radius = 0.0
+> circle's area = 0.0
+> circle's circumference = 0.0
+> circle's diameter = 0.0
+17,20c17,20
+< circle's radius = 11.98528137423857
+< circle's area = 451.2802644675914
+< circle's circumference = 75.30574383302894
+< circle's diameter = 23.97056274847714
+---
+> circle's radius = 3.5
+> circle's area = 38.465
+> circle's circumference = 21.98
+> circle's diameter = 7.0
+22,29c22,29
+< rectangle is [(2, 2), (8, 8)]
+< rectangle's bottom left Point = (2, 2)
+< rectangle's top righ Point = (8, 8)
+< rectangle's height = 6
+< rectangle's width = 6
+< rectangle's area = 36.0
+< rectangle's diagonal = 8.48528137423857
+< rectangle's perimeter = 24
+---
+> rectangle is [(8, 8), (2, 2)]
+> rectangle's bottom left Point = (8, 8)
+> rectangle's top righ Point = (2, 2)
+> rectangle's height = 0
+> rectangle's width = 0
+> rectangle's area = 0.0
+> rectangle's diagonal = 0.0
+> rectangle's perimeter = 0
+32,39c32,39
+< rectangle is [(2, 2), (11, 13)]
+< rectangle's bottom left Point = (2, 2)
+< rectangle's top righ Point = (11, 13)
+< rectangle's height = 11
+< rectangle's width = 9
+< rectangle's area = 99.0
+< rectangle's diagonal = 14.212670403551895
+< rectangle's perimeter = 40
+---
+> rectangle is [(8, 8), (5, 7)]
+> rectangle's bottom left Point = (8, 8)
+> rectangle's top righ Point = (5, 7)
+> rectangle's height = 5
+> rectangle's width = 3
+> rectangle's area = 15.0
+> rectangle's diagonal = 2.8284271247461903
+> rectangle's perimeter = 16
