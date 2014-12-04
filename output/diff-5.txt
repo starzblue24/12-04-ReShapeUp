@@ -1,0 +1,24 @@
+11c11
+< circle is [(2, 2), 8.48528137423857]
+---
+> circle is (2, 2), 8.48528137423857
+18c18
+< circle's area = 451.2802644675914
+---
+> circle's area = 451.28026446759134
+22c22
+< rectangle is [(2, 2), (8, 8)]
+---
+> rectangle is (2, 2), (8, 8)
+29c29
+< rectangle's perimeter = 24
+---
+> rectangle's perimeter = 24.0
+32c32
+< rectangle is [(2, 2), (11, 13)]
+---
+> rectangle is (2, 2), (11, 13)
+39c39
+< rectangle's perimeter = 40
+---
+> rectangle's perimeter = 40.0
