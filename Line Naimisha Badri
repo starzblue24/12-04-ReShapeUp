@@ -1,0 +1,31 @@
+// A Line object represents a line defined by a pair of Points.
+public class Line{
+ private Point Start=new Point();
+  private Point End=new Point();
+  public Line()
+  {
+    Start.setX(0);
+    Start.setY(0);
+    End.setX(0);
+    End.setY(0);
+  }
+  public Line(Point j, Point e)
+  {
+    Start=j;
+    End=e;
+  }
+  public double length(){
+    return Start.distance(End);
+  }
+  public double slope(){
+         return (End.getY()-Start.getY())/(End.getX()-Start.getX());
+       }
+public String toString(){
+  return "["+Start.toString()+","+End.toString()+"]";
+}
+public void translate(int dx, int dy)
+{
+  Start.translate(dx,dy);
+  End.translate(dx,dy);
+}
+}
