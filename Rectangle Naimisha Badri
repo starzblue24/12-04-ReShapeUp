@@ -1,0 +1,79 @@
+// A Rectangle object represents a rectangle defined by an origin point (bottom left corner), plus width and height.
+public class Rectangle{
+  private Point origin;
+private  int width;
+  private int height;
+  public Rectangle()
+  {
+    height =0;
+    width=0;
+    origin=new Point();
+  }
+  public Rectangle(Point bottomLeft, Point topRight)
+  {
+ origin=bottomLeft;
+    width = topRight.getX() - origin.getX();
+    height= topRight.getY() - origin.getY();
+  }
+  public Rectangle(Point q, int r, int k)
+  {
+  origin=q;
+  width=r;
+  height=k;
+  }
+  public Point getBottomLeft()
+  {
+    return origin;
+  }
+  public Point getTopRight()
+  {
+return new Point(origin.getX() + width, origin.getY() + height);
+  }
+  public int getHeight()
+  {
+    return height;
+  }
+  public int getWidth()
+  {
+    return width;
+  }
+  public double area()
+  {
+    double area=height*width;
+    return area;
+  }
+  public double diagonal()
+  {
+return    Math.sqrt((width * width) +( height * height));
+  }
+  public int perimeter()
+  {
+    return (width+width+height+height);
+  }
+  public boolean isSquare()
+  {
+    if(width==height)
+    {
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+  public String toString()
+  {
+return    "["+origin.toString()+","+getTopRight()+"]";
+  }
+public void translate(int dx, int dy)
+{
+  Point n=new Point();
+origin.translate(dx,dy);
+n.setX(n.getX()+dx);
+n.setY(n.getY()+dy);
+}
+public void scale(int dx, int dy)
+{
+  width=width+dx;
+  height=height+dy;
+}
+}
